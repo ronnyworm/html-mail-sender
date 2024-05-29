@@ -3,6 +3,7 @@
 class Credentials
   attr_reader :smtp_host, :smtp_port, :smtp_user, :smtp_pass, :auth_options, :name
 
+  # netcup example
   def initialize
     @smtp_host = 'smtp host'
     @smtp_port = 587
@@ -15,6 +16,7 @@ class Credentials
     }
   end
 
+  # all-inkl example
   def other_example
     @smtp_host = 'smtp host'
     @smtp_port = 465
